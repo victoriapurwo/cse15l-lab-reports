@@ -20,7 +20,7 @@ For each, include:
 ---
 
 ## cd
-*"Change Directory" Used to switch the current working directory to the given path*
+*Change Directory: used to switch the current working directory to the given path*
 
 > cd
 
@@ -32,7 +32,7 @@ Output explanation:
 
 Error/not...
 
-> cd
+> cd <directory>
 
 ![Image](http://url/a.png)
 
@@ -42,7 +42,7 @@ Output explanation:
 
 Error/not...
 
-> cd
+> cd <file>
 
 ![Image](http://url/a.png)
 
@@ -53,7 +53,7 @@ Output explanation:
 Error/not...
 
 ## ls
-*"List" Used to list the files and folders in the given path*
+*List: used to list the files and folders in the given path*
 
 > ls
 
@@ -65,8 +65,7 @@ Output explanation:
 
 Error/not...
 
-
-> ls
+> ls <directory>
 
 ![Image](http://url/a.png)
 
@@ -76,8 +75,7 @@ Output explanation:
 
 Error/not...
 
-
-> ls
+> ls <file>
 
 ![Image](http://url/a.png)
 
@@ -88,7 +86,7 @@ Output explanation:
 Error/not...
 
 ## cat
-*"Concatenate" Used to print the contents of one or more files given by the paths*
+*Concatenate: used to print the contents of one or more files given by the paths*
 
 > cat
 
@@ -100,7 +98,7 @@ Output explanation:
 
 Error/not...
 
-> cat
+> cat <directory>
 
 ![Image](http://url/a.png)
 
@@ -110,7 +108,7 @@ Output explanation:
 
 Error/not...
 
-> cat
+> cat <file>
 
 ![Image](http://url/a.png)
 
@@ -119,6 +117,3 @@ Working directory when the command was run:
 Output explanation:
 
 Error/not...
-
-
-
