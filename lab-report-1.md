@@ -1,4 +1,5 @@
 *Lab Report 1*
+
 *Monday, 9 October 2023*
 
 ---
@@ -18,14 +19,33 @@ For each, include:
 
 ---
 
+## cd
+*"Change Directory" Used to switch the current working directory to the given path*
+
 > cd
 
+> cd
 
+> cd
+
+## ls
+*"List" Used to list the files and folders in the given path*
+
+> ls
 
 
 > ls
 
 
+> ls
+
+## cat
+*"Concatenate" Used to print the contents of one or more files given by the paths*
+
+> cat
+
+
+> cat
 
 
 > cat
