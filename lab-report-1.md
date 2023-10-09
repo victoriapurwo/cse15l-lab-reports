@@ -7,9 +7,9 @@
 ## Task
 
 For each of the commands cd, ls, and cat, and using the workspace you created in this lab, share an example of:
-1. using the command with no arguments.
-2. using the command with a path to a directory as an argument.
-3. using the command with a path to a file as an argument.
+1. Using the command with no arguments.
+2. Using the command with a path to a directory as an argument.
+3. Using the command with a path to a file as an argument.
 
 For each, include:
 1. A screenshot or Markdown code block showing the command and its output.
@@ -24,32 +24,101 @@ For each, include:
 
 > cd
 
-> cd
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
 
 > cd
+
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
+
+> cd
+
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
 
 ## ls
 *"List" Used to list the files and folders in the given path*
 
 > ls
 
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
+
 
 > ls
 
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
+
 
 > ls
+
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
 
 ## cat
 *"Concatenate" Used to print the contents of one or more files given by the paths*
 
 > cat
 
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
 
 > cat
 
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
 
 > cat
 
+![Image](http://url/a.png)
+
+Working directory when the command was run:
+
+Output explanation:
+
+Error/not...
 
 
 
