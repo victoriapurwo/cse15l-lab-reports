@@ -108,7 +108,7 @@ For each, include:
 
 * Output explanation: When 'cat' was run without any arguments, it reads from standard input (stdin) and writes to standard output (stdout). Whatever is typed and entered into the keyboard will be displayed on the screen, as shown in the image above. The current working directory does not change.
 
-* Note: This was an unexpected output as it is not something we have discussed in lecture. I did some research to try and understand the output on a surface level, however, I still do not fully understand what happened.
+* Note: This was an unexpected output as it is not something we have discussed in lecture. I did some research to try and understand the output on a surface level, however, I still do not fully understand what happened. I had to use Ctrl + C to stop the command and the repetition.
 
 * I do not believe the output is an error.
 
