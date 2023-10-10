@@ -22,62 +22,69 @@ For each, include:
 ## cd
 *Change Directory: used to switch the current working directory to the given path*
 
-> cd with no argument
+> cd
 
-![Image](http://url/a.png)
+![Image](cd1.png)
 
-Working directory when the command was run:
+Working directory when the command was run: /home
 
-Output explanation:
+Output explanation: Using the command 'cd' with no argument does not change anything. The initial working directory, as displayed by the command 'pwd,' does not get switched; it remains the same before and after running 'cd' with no arguments.
 
-Error/not...
+The output is not an error. The 'cd' command produces no output when it works. In this case, it was not an error and no changes were made.
 
-> cd <directory>
+> cd lecture1
 
-![Image](http://url/a.png)
+![Image](cd2.png)
 
-Working directory when the command was run:
+Working directory when the command was run: /home
 
-Output explanation:
+Output explanation: Running the command 'cd lecture1' switched the current working directory, /home, to /home/lecture1, which can be seen after running 'pwd' the second time.
 
-Error/not...
+The output is not an error. After running 'cd lecture1,' no output was produced which means it worked. Further, the working directory printed after running the command was /home/lecture1, which is consistent with the expected results.
 
-> cd <file>
+> cd Hello.java
 
-![Image](http://url/a.png)
+![Image](cd3.png)
 
-Working directory when the command was run:
+Working directory when the command was run: /home/lecture1
 
-Output explanation:
+Output explanation: The initial working directory before running 'cd Hello.java' was /home/lecture1. After running 'cd Hello.java' the current working directory displayed by 'pwd' remains the same. Since Hello.java is a file and not a directory, the command was unable to switch the current working directory.
 
-Error/not...
+The output is an error because the 'cd' command is used to switch the current working directory to the given path. It cannot switch the current working directory to a file.
+
 
 ## ls
 *List: used to list the files and folders in the given path*
 
 > ls
 
-![Image](http://url/a.png)
+![Image](ls1.png)
 
-Working directory when the command was run:
+Working directory when the command was run: /home
 
-Output explanation:
+Output explanation: The 'ls' command with no arguments simply lists the files and folders in the current working directory since no specific path was given as an argument. In this case, the current working directory was /home therefore 'ls' printed out the folder lecture1 and the java file lab1.java, which can be seen in the image below are the only two files and folders in the /home working directory.
 
-Error/not...
+![Image](ls11.png)
 
-> ls <directory>
+The output is not an error.
 
-![Image](http://url/a.png)
+> ls lecture1
 
-Working directory when the command was run:
+![Image](ls2.png)
 
-Output explanation:
+Working directory when the command was run: /home
 
-Error/not...
+Output explanation: The command 'ls lecture1' lists the files and folders in the /home/lecture1 path. As shown in the image below, there are four files and folders under lecture1, namely 'Hello.class', 'Hello.java', 'messages', and 'README', which are consistent with the output shown in the first image above.
 
-> ls <file>
+Another thing to note is that the argument given to the command in 'ls lecture1' is not an absolute path. 'lecture1' is simply a relative path. The terminal automatically adds the relative path to the end of the current working directory to combine it and produce an absolute path. In this case, the absolute path becomes '/home/lecture1'.
 
-![Image](http://url/a.png)
+![Image](ls11.png)
+
+The output is not an error.
+
+> ls Hello.java
+
+![Image](ls3.png)
 
 Working directory when the command was run:
 
@@ -90,7 +97,7 @@ Error/not...
 
 > cat
 
-![Image](http://url/a.png)
+![Image](cat1.png)
 
 Working directory when the command was run:
 
@@ -100,7 +107,7 @@ Error/not...
 
 > cat <directory>
 
-![Image](http://url/a.png)
+![Image](cat2.png)
 
 Working directory when the command was run:
 
@@ -110,7 +117,7 @@ Error/not...
 
 > cat <file>
 
-![Image](http://url/a.png)
+![Image](cat3.png)
 
 Working directory when the command was run:
 
