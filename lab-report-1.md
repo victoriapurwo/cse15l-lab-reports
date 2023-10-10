@@ -84,6 +84,7 @@ For each, include:
 * The output is not an error.
 
 > ls Hello.java
+
 > ls lab1.java
 
 ![Image](ls3.png)
@@ -114,6 +115,7 @@ For each, include:
 * I do not believe the output is an error.
 
 > cat lecture1
+
 > cat lecture1/messages
 
 ![Image](cat2.png)
@@ -125,6 +127,7 @@ For each, include:
 * The output is not an error.
 
 > cat en-us.txt
+
 > cat es-mx.txt id.txt zh-cn.txt
 
 ![Image](cat3.png)
