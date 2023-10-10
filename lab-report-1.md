@@ -22,7 +22,7 @@ For each, include:
 ## cd
 *Change Directory: used to switch the current working directory to the given path*
 
-> cd
+> cd with no argument
 
 ![Image](http://url/a.png)
 
