@@ -28,9 +28,13 @@ For each, include:
 
 * Working directory before the command was run: /home
 
-* Output explanation: Using the command 'cd' with no argument does not change anything. The initial working directory, as displayed by the command 'pwd,' does not get switched; it remains the same before and after running 'cd' with no arguments.
+* Output explanation: Using the command 'cd' with no argument does not change anything in this case. The initial working directory, as displayed by the command 'pwd,' was /home, therefore running 'cd' with no arguments does not change it; it remains /home. In other cases, if 'cd' was run with no arguments, but the current working directory is something other than the home directory, then running 'cd' with no arguments will switch the current working directory to the home directory.
 
-* The output is not an error. The 'cd' command produces no output when it works. In this case, it was not an error and no changes were made.
+* The output is not an error. The 'cd' command produces no output when it works. In this case, it was not an error and the working directory remains the home directory.
+
+* Example of running 'cd' with no arguments when the current working directory is not the home directory:
+![Image](update.png)
+As seen in the screenshot above, when the initial working directory is not /home, which in this case is /home/lecture1/messages, running 'cd' with no arguments switches the working directory to the home directory. When 'pwd' is run after running 'cd' with no commands, it shows that the current working directory is now /home.
 
 > cd lecture1
 
