@@ -32,6 +32,8 @@ For each, include:
 
 * The output is not an error. The 'cd' command produces no output when it works. In this case, it was not an error and the working directory remains the home directory.
 
+* Essentially, if 'cd' is run without arguments, the user is returned to the home directory.
+
 * Example of running 'cd' with no arguments when the current working directory is not the home directory:
 ![Image](update.png)
 
