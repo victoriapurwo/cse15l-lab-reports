@@ -34,6 +34,7 @@ For each, include:
 
 * Example of running 'cd' with no arguments when the current working directory is not the home directory:
 ![Image](update.png)
+
 As seen in the screenshot above, when the initial working directory is not /home, which in this case is /home/lecture1/messages, running 'cd' with no arguments switches the working directory to the home directory. When 'pwd' is run after running 'cd' with no commands, it shows that the current working directory is now /home.
 
 > cd lecture1
