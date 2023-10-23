@@ -71,4 +71,4 @@ Using the command line, show with ls and take screenshots of:
 
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
 
-...
+I thought that in order to remotely connect to a server, I would have to enter my password every single time I login. It was honestly such a hassle for me to enter my password every time, especially because the command line does not show the password I enter. So I was happy to find out that it is possible to set up SSH keys for easy access and not have to enter my password each time. Another thing I learned was how to make a very simple "search engine" in lab 2, which I struggled with at first but eventually got my code running after multiple tries. 
