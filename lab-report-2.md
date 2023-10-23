@@ -6,6 +6,12 @@
 
 ## Part 1
 
+![Image](StringServer.png)
+
+![Image](AddMsg1.png)
+
+![Image](AddMsg2.png)
+
 ---
 
 ## Part 2
