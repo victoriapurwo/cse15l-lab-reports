@@ -20,11 +20,11 @@ Write a web server called StringServer that supports the path and behavior descr
 
 - Which methods in your code are called?
 
-The 
+The handleRequest method is called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-...
+The handleRequest method takes in one parameter which is the URL. The argument in this case is the URL, which is "https://0-0-0-0-4000-5h3u8651abehci7t8ndrqtqo5o.us.edusercontent.com/add-message?s=Hello".
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 By values, we mean specific String s, int s, URI s, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
@@ -37,11 +37,11 @@ By values, we mean specific String s, int s, URI s, and so on. "abc" is a value,
 
 - Which methods in your code are called?
 
-...
+The handleRequest method is called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-...
+The handleRequest method takes in one parameter which is the URL. The argument in this case is the URL, which is "https://0-0-0-0-4000-5h3u8651abehci7t8ndrqtqo5o.us.edusercontent.com/add-message?s=How%20are%20you".
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
