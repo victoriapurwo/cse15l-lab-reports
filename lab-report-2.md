@@ -6,7 +6,7 @@
 
 ## Part 1
 
-Write a web server called StringServer that supports the path and behavior described below. It should keep track of a single string that gets added to by incoming requests.
+Write a web server called StringServer that supports the path and behavior described below. It should keep track of a single string that gets added to by incoming requests. Show the code for your StringServer, and two screenshots of using /add-message.
 
 > Code for my StringServer
 
