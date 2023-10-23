@@ -4,13 +4,12 @@
 
 ---
 
-## PART 1
+## Part 1
 
 ---
 
-## PART 2
+## Part 2
 
 ---
 
-## PART 3
-
+## Part 3
