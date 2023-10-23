@@ -6,6 +6,8 @@
 
 ## Part 1
 
+Write a web server called StringServer that supports the path and behavior described below. It should keep track of a single string that gets added to by incoming requests.
+
 > Code for my StringServer
 
 ![Image](StringServer1.png)
