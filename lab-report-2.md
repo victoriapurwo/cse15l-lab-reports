@@ -25,11 +25,17 @@ The handleRequest method is called.
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 The handleRequest method takes in one parameter which is the URL. The argument in this case is the URL, which is "https://0-0-0-0-4000-5h3u8651abehci7t8ndrqtqo5o.us.edusercontent.com/add-message?s=Hello".
+
+As for the relevant fields of the class, here are their values:
+1. int num = 0
+2. String current = ""
+3. String[] parameters = "s=Hello"
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 By values, we mean specific String s, int s, URI s, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
 
-...
+1. num goes from 0 to 1
+2. current goes from "" to "1. Hello"
 
 > Using /add-message for the second time
 
@@ -42,10 +48,16 @@ The handleRequest method is called.
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 The handleRequest method takes in one parameter which is the URL. The argument in this case is the URL, which is "https://0-0-0-0-4000-5h3u8651abehci7t8ndrqtqo5o.us.edusercontent.com/add-message?s=How%20are%20you".
+
+As for the relevant fields of the class, here are their values:
+1. int num = 1
+2. String current = "1. Hello" + "\n"
+3. String[] parameters = "s=How%20are%20you"
   
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-...
+1. num goes from 1 to 2
+2. current goes from "1. Hello" to "1. Hello" + "\n" + "2. How are you" + "\n"
 
 ---
 
