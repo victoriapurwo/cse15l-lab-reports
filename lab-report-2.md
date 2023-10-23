@@ -1,4 +1,4 @@
-*Lab Report 2*
+*Lab Report 2 - Servers and SSH Keys*
 
 *Sunday, 22 October 2023*
 
