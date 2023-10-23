@@ -6,7 +6,9 @@
 
 ## Part 1
 
-![Image](StringServer.png)
+![Image](StringServer1.png)
+
+![Image](StringServer2.png)
 
 ![Image](AddMsg1.png)
 
