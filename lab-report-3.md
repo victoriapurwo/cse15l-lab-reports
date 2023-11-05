@@ -32,15 +32,17 @@ public void testReversed() {
 
 5. The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above):
 
-The output when the test failed (the symptom)
+> The output when the test failed (the symptom)
+
 ![Image](labreport3fail.png)
 
-The output when the test was a success
+> The output when the test was a success
+
 ![Image](labreport3success.png)
 
 6. The bug, as the before-and-after code change required to fix it:
 
-Before: the buggy code
+> Before: the buggy code
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -51,7 +53,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-After: the fixed code
+> After: the fixed code
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
