@@ -7,6 +7,7 @@
 ## Part 1 - Bugs
 
 1. Choose one of the bugs from week 4’s lab:
+
 The bug in the ```reversed``` array method.
 
 3. A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown):
