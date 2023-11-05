@@ -12,7 +12,6 @@ The bug in the ```reversed``` array method.
 
 2. A failure-inducing input for the buggy program, as a JUnit test and any associated code:
 
-Failure-inducing input
 ```
 @Test
 public void testReversed() {
@@ -23,7 +22,6 @@ public void testReversed() {
 
 4. An input that doesn’t induce a failure, as a JUnit test and any associated code:
 
-Input that doesn't induce a failure
 ```
 @Test
 public void testReversed() {
@@ -34,12 +32,25 @@ public void testReversed() {
 
 5. The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above):
 
+The output when the test failed (the symptom)
+![Image](labreport3fail.png)
 
-6. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown):
+The output when the test was a success
+![Image](labreport3success.png)
 
+6. The bug, as the before-and-after code change required to fix it:
+
+Before: the buggy code
+```
+```
+
+After: the fixed code
+```
+```
 
 7. Briefly describe why the fix addresses the issue:
 
+xxx
 
 ---
 
