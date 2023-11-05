@@ -10,11 +10,27 @@
 
 The bug in the ```reversed``` array method.
 
-3. A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown):
+2. A failure-inducing input for the buggy program, as a JUnit test and any associated code:
 
+Failure-inducing input
+```
+@Test
+public void testReversed() {
+  int[] input = {1, 2, 3, 4, 5};
+  assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input);
+}
+```
 
-4. An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown):
+4. An input that doesn’t induce a failure, as a JUnit test and any associated code:
 
+Input that doesn't induce a failure
+```
+@Test
+public void testReversed() {
+  int[] input = {1, 2, 3, 4, 5};
+  assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input);
+}
+```
 
 5. The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above):
 
