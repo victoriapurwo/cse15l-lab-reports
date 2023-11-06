@@ -82,14 +82,14 @@ The ```find``` command
 
 *[Source](https://www.example.com)*
 
-1. To find all files that are greater than 1000MB:
+1. This command finds all files that are greater than 1000MB, which can be useful when...
 
 ```
 $ find ~ -size +1000M
 x
 ```
 
-2. To find all files that are smaller than 100MB:
+2. This command finds all files that are smaller than 100MB, which can be useful when...
  
 ```
 $ find ~ -size -100M
@@ -102,14 +102,14 @@ x
 
 *[Source](https://www.example.com)*
 
-1. 
+1. This command finds all files that ..., which can be useful when...
  
 ```
 $ find ~ -iname
 x
 ```
 
-2. 
+2. This command finds all files that ..., which can be useful when...
  
 ```
 $
@@ -122,14 +122,14 @@ x
 
 *[Source](https://www.example.com)*
 
-1. This command will only find files that are only 1 directory deep,
+1. This command will only find files that are only 1 directory deep, ... This is useful because...
  
 ```
 $ find ~ -maxdepth 1
 x
 ```
 
-2. This command will only find files that are 2 directories deep, 
+2. This command will only find files that are 2 directories deep, ... This can be useful when...
  
 ```
 $ find ~ -maxdepth 2
@@ -142,14 +142,14 @@ x
 
 *[Source](https://www.example.com)*
 
-1. ```-type f``` specifies that you want to look for regular files. Regular files include common types of files, such as text files and script files.
+1. ```-type f``` specifies that you want to look for regular files. Regular files include common types of files, such as text files and script files. This can be useful when ...
  
 ```
 $ find ~ -type f
 x
 ```
 
-2. ```-type d``` specifies that you want to look for directories only.
+2. ```-type d``` specifies that you want to look for directories only. This is useful when ...
  
 ```
 $ find ~ -type d
