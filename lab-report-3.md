@@ -78,9 +78,9 @@ The ```find``` command
 
 > -size
 
-> This option specifies the size of the file you want to find.
+> This option specifies the size of the file you want to find. You can filter your results to smaller than or greater than a specific size. You can use several different suffixes: 'b' for 512-byte blocks, 'c' for bytes, 'w' for two-byte words, 'k' for kibibytes, 'M' for mebibites, 'G' for gibibytes.
 
-*[Source](https://www.example.com)*
+*[Source](https://man7.org/linux/man-pages/man1/find.1.html)*
 
 1. This command finds all files that are greater than 10MB. There are no files that are greater than 10MB in the technical directory, as seen in the output below. This option can be useful in many scenarios, such as searching for large files as a way to declutter and/or save storage space.
 
@@ -117,7 +117,7 @@ $ find /home/docsearch/technical/911report -size -100M
 
 > This option is like -name, but the match is case insensitive. For example, the pattern `Fo*` matches the file names `Foo`, `foo`, `FO0`, `FOO`, `fOO`, etc.
 
-*[Source](https://www.example.com)*
+*[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
 1. This command finds all files that match ```*CHAPTER*```, which means the name includes the letters 'CHAPTER', case insensitive. As seen below, the file paths listed below contain the lowercase letters 'chapter' but are still listed in the results. This can be useful when you cannot remember the exact name of the file you are looking for, and/or if you are unsure about the capitalization of the name.
  
@@ -156,7 +156,7 @@ $ find /home/docsearch/technical/911report -iname *chAPTer-13
 
 > This option limits the depth of searches by the number of directories you want to go into after the starting point.
 
-*[Source](https://www.example.com)*
+*[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
 1. This command will only find files that are only 1 directory deep, which in the case below are only the technical, biomed, and 911report directories. This is useful because with hundreds or even thousands of files in a user directory and beyond that, you may often get overwhelming results way beyond what you are looking for. So this option is useful to limit the depth of searches.
  
@@ -189,7 +189,7 @@ $ find /home/docsearch/technical -maxdepth 2 -name *1471-2180-2*
 
 > This option specifies the type of file you want to find.
 
-*[Source](https://www.example.com)*
+*[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
 1. ```-type f``` specifies that you want to look for regular files (all the file paths; the actual files and not the ones that are just directories). Regular files include common types of files, such as text files and script files. This can be useful when you just want to look for file paths and don't want to include all the directory names. In the command below I narrowed down the directory to find the files to only the 911report directory because the biomed directory has a very long list of files. However, if the command was ```$ find /home/docsearch/technical -type f``` instead, all the .txt files in 911report and biomed would be listed, and the technical, 911report, and biomed directories would not be listed. In the output below, all the files in 911report are .txt files so they are all listed.
  
