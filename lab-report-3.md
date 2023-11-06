@@ -120,7 +120,7 @@ x
 
 > This option limits the depth of searches by the number of directories you want to go into after the starting point.
 
-*[Source](https://www.example.com](https://www.redhat.com/sysadmin/linux-find-command)*
+*[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
 1. 
  
