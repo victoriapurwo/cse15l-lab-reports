@@ -25,8 +25,8 @@ public void testReversed() {
 ```
 @Test
 public void testReversed() {
-  int[] input = {};
-  assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
+  int[] input = {0};
+  assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input));
 }
 ```
 
@@ -60,23 +60,112 @@ static int[] reversed(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
     }
-    return arr;
+    return newArray;
 }
 ```
 
 7. Briefly describe why the fix addresses the issue:
 
-xxx
+The ```reversed``` method should return a new array with all the elements of the input array in reversed order. The problem with the initial code is that it is copying elements from ```newArray``` into the input ```arr``` in reversed order, then returning the input ```arr``` and not a new array. Moreover, the elements copied from ```newArray``` into ```arr``` are all ```0```. When we initialize the ```newArray``` in ```int[] newArray = new int[arr.length];```, the initial values will be 0 for each element in the array since in Java, integer arrays are initialized to 0 by default. This is why the input in #4 which was an array with a single element 0 (```int[] input = {0};```) did not induce a failure.
+
+The change I made to fix the code made sure that it copies the elements from the input ```arr``` into the new array ```newArray``` (instead of the other way around) and then returns ```newArray``` instead of ```arr```.
 
 ---
 
 ## Part 2 - Researching Commands
 
-Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about commands; you can use man grep, for example, to see a long listing of information about how grep works. Also consider asking ChatGPT!
-
 For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
-That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
+The ```find``` command
 
-Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
+> -name
+**
 
+1. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+2. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+> -command2
+*cite*
+
+1. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+2. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+> -command3
+*cite*
+
+1. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+2. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+> -command4
+*cite*
+
+1. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
+
+2. 
+ 
+  Command:
+  ```
+  ```
+
+  Output:
+  ```
+  ```
