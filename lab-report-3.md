@@ -82,18 +82,35 @@ The ```find``` command
 
 *[Source](https://www.example.com)*
 
-1. This command finds all files that are greater than 1000MB, which can be useful when...
+1. This command finds all files that are greater than 10MB, which can be useful when...
 
 ```
-$ find ~ -size +1000M
-x
+$ find /home/docsearch/technical/biomed -size +10M
+
 ```
 
 2. This command finds all files that are smaller than 100MB, which can be useful when...
  
 ```
-$ find ~ -size -100M
-x
+$ find /home/docsearch/technical/911report -size -100M
+/home/docsearch/technical/911report
+/home/docsearch/technical/911report/chapter-13.1.txt
+/home/docsearch/technical/911report/chapter-6.txt
+/home/docsearch/technical/911report/chapter-13.2.txt
+/home/docsearch/technical/911report/chapter-5.txt
+/home/docsearch/technical/911report/chapter-1.txt
+/home/docsearch/technical/911report/chapter-13.3.txt
+/home/docsearch/technical/911report/chapter-12.txt
+/home/docsearch/technical/911report/chapter-11.txt
+/home/docsearch/technical/911report/chapter-13.5.txt
+/home/docsearch/technical/911report/chapter-13.4.txt
+/home/docsearch/technical/911report/chapter-8.txt
+/home/docsearch/technical/911report/chapter-10.txt
+/home/docsearch/technical/911report/chapter-7.txt
+/home/docsearch/technical/911report/chapter-2.txt
+/home/docsearch/technical/911report/preface.txt
+/home/docsearch/technical/911report/chapter-9.txt
+/home/docsearch/technical/911report/chapter-3.txt
 ```
 
 > -iname
@@ -105,15 +122,34 @@ x
 1. This command finds all files that ..., which can be useful when...
  
 ```
-$ find ~ -iname
-x
+$ find /home/docsearch/technical/911report -iname *CHAPTER*
+/home/docsearch/technical/911report/chapter-13.1.txt
+/home/docsearch/technical/911report/chapter-6.txt
+/home/docsearch/technical/911report/chapter-13.2.txt
+/home/docsearch/technical/911report/chapter-5.txt
+/home/docsearch/technical/911report/chapter-1.txt
+/home/docsearch/technical/911report/chapter-13.3.txt
+/home/docsearch/technical/911report/chapter-12.txt
+/home/docsearch/technical/911report/chapter-11.txt
+/home/docsearch/technical/911report/chapter-13.5.txt
+/home/docsearch/technical/911report/chapter-13.4.txt
+/home/docsearch/technical/911report/chapter-8.txt
+/home/docsearch/technical/911report/chapter-10.txt
+/home/docsearch/technical/911report/chapter-7.txt
+/home/docsearch/technical/911report/chapter-2.txt
+/home/docsearch/technical/911report/chapter-9.txt
+/home/docsearch/technical/911report/chapter-3.txt
 ```
 
 2. This command finds all files that ..., which can be useful when...
  
 ```
-$
-x
+$ find /home/docsearch/technical/911report -iname *chAPTer-13
+/home/docsearch/technical/911report/chapter-13.1.txt
+/home/docsearch/technical/911report/chapter-13.2.txt
+/home/docsearch/technical/911report/chapter-13.3.txt
+/home/docsearch/technical/911report/chapter-13.5.txt
+/home/docsearch/technical/911report/chapter-13.4.txt
 ```
 
 > -maxdepth
@@ -125,15 +161,28 @@ x
 1. This command will only find files that are only 1 directory deep, ... This is useful because...
  
 ```
-$ find ~ -maxdepth 1
-x
+$ find /home/docsearch/technical -maxdepth 1
+/home/docsearch/technical
+/home/docsearch/technical/biomed
+/home/docsearch/technical/911report
 ```
 
 2. This command will only find files that are 2 directories deep, ... This can be useful when...
  
 ```
-$ find ~ -maxdepth 2
-x
+$ find /home/docsearch/technical -maxdepth 2 -name *1471-2180-2*
+/home/docsearch/technical/biomed/1471-2180-2-16.txt
+/home/docsearch/technical/biomed/1471-2180-2-1.txt
+/home/docsearch/technical/biomed/1471-2180-2-2.txt
+/home/docsearch/technical/biomed/1471-2180-2-13.txt
+/home/docsearch/technical/biomed/1471-2180-2-7.txt
+/home/docsearch/technical/biomed/1471-2180-2-32.txt
+/home/docsearch/technical/biomed/1471-2180-2-22.txt
+/home/docsearch/technical/biomed/1471-2180-2-38.txt
+/home/docsearch/technical/biomed/1471-2180-2-35.txt
+/home/docsearch/technical/biomed/1471-2180-2-26.txt
+/home/docsearch/technical/biomed/1471-2180-2-20.txt
+/home/docsearch/technical/biomed/1471-2180-2-29.txt
 ```
 
 > -type
@@ -142,16 +191,34 @@ x
 
 *[Source](https://www.example.com)*
 
-1. ```-type f``` specifies that you want to look for regular files. Regular files include common types of files, such as text files and script files. This can be useful when ...
+1. ```-type f``` specifies that you want to look for regular files (all the file paths; the actual files and not the ones that are just directories). Regular files include common types of files, such as text files and script files. This can be useful when you just want to look for file paths and don't want to include all the directory names.
  
 ```
-$ find ~ -type f
-x
+$ find /home/docsearch/technical/911report -type f
+/home/docsearch/technical/911report/chapter-13.1.txt
+/home/docsearch/technical/911report/chapter-6.txt
+/home/docsearch/technical/911report/chapter-13.2.txt
+/home/docsearch/technical/911report/chapter-5.txt
+/home/docsearch/technical/911report/chapter-1.txt
+/home/docsearch/technical/911report/chapter-13.3.txt
+/home/docsearch/technical/911report/chapter-12.txt
+/home/docsearch/technical/911report/chapter-11.txt
+/home/docsearch/technical/911report/chapter-13.5.txt
+/home/docsearch/technical/911report/chapter-13.4.txt
+/home/docsearch/technical/911report/chapter-8.txt
+/home/docsearch/technical/911report/chapter-10.txt
+/home/docsearch/technical/911report/chapter-7.txt
+/home/docsearch/technical/911report/chapter-2.txt
+/home/docsearch/technical/911report/preface.txt
+/home/docsearch/technical/911report/chapter-9.txt
+/home/docsearch/technical/911report/chapter-3.txt
 ```
 
 2. ```-type d``` specifies that you want to look for directories only. This is useful when ...
  
 ```
-$ find ~ -type d
-x
+$ find /home/docsearch/technical -type d
+/home/docsearch/technical
+/home/docsearch/technical/biomed
+/home/docsearch/technical/911report
 ```
