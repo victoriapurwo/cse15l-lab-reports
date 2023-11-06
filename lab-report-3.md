@@ -81,48 +81,36 @@ The ```find``` command
 *cite*
 
 1. 
- 
-  Command:
-  ```
-  ```
 
-  Output:
-  ```
-  ```
+```
+$
+x
+```
 
 2. 
  
-  Command:
-  ```
-  ```
+```
+$
+x
+```
 
-  Output:
-  ```
-  ```
-
-> -command2
+> -iname
 
 *cite*
 
 1. 
  
-  Command:
-  ```
-  ```
-
-  Output:
-  ```
-  ```
+```
+$
+x
+```
 
 2. 
  
-  Command:
-  ```
-  ```
-
-  Output:
-  ```
-  ```
+```
+$
+x
+```
 
 > -command3
 
@@ -130,23 +118,17 @@ The ```find``` command
 
 1. 
  
-  Command:
-  ```
-  ```
-
-  Output:
-  ```
-  ```
+```
+$
+x
+```
 
 2. 
  
-  Command:
-  ```
-  ```
-
-  Output:
-  ```
-  ```
+```
+$
+x
+```
 
 > -command4
 
@@ -154,20 +136,14 @@ The ```find``` command
 
 1. 
  
-  Command:
-  ```
-  ```
-
-  Output:
-  ```
-  ```
+```
+$
+x
+```
 
 2. 
  
-  Command:
-  ```
-  ```
-
-  Output:
-  ```
-  ```
+```
+$
+x
+```
