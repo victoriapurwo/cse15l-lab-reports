@@ -82,23 +82,23 @@ The ```find``` command
 
 *[Source](https://www.example.com)*
 
-1. To find all files that are greater than 100MB:
+1. To find all files that are greater than 1000MB:
 
 ```
-$
+$ find ~ -size +1000M
 x
 ```
 
 2. To find all files that are smaller than 100MB:
  
 ```
-$
+$ find ~ -size -100M
 x
 ```
 
 > -iname
 
-> This option
+> This option is like -name, but the match is case insensitive. For example, the pattern `Fo*` matches the file names `Foo`, `foo`, `FO0`, `FOO`, `fOO`, etc.
 
 *[Source](https://www.example.com)*
 
@@ -122,14 +122,14 @@ x
 
 *[Source](https://www.example.com)*
 
-1. 
+1. This command will only find files that are only 1 directory deep,
  
 ```
 $ find ~ -maxdepth 1
 x
 ```
 
-2. 
+2. This command will only find files that are 2 directories deep, 
  
 ```
 $ find ~ -maxdepth 2
@@ -142,14 +142,14 @@ x
 
 *[Source](https://www.example.com)*
 
-1. 
+1. ```-type f``` specifies that you want to look for regular files. Regular files include common types of files, such as text files and script files.
  
 ```
 $ find ~ -type f
 x
 ```
 
-2. 
+2. ```-type d``` specifies that you want to look for directories only.
  
 ```
 $ find ~ -type d
