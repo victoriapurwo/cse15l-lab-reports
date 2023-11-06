@@ -77,6 +77,7 @@ The change I made to fix the code made sure that it copies the elements from the
 The ```find``` command
 
 > -size
+
 > This option specifies the size of the file you want to find.
 
 *[Source](https://www.example.com)*
@@ -96,6 +97,7 @@ x
 ```
 
 > -iname
+
 > This option
 
 *[Source](https://www.example.com)*
@@ -116,7 +118,9 @@ x
 
 > -maxdepth
 
-*[Source](https://www.example.com)*
+> This option limits the depth of searches by the number of directories you want to go into after the starting point.
+
+*[Source](https://www.example.com](https://www.redhat.com/sysadmin/linux-find-command)*
 
 1. 
  
@@ -133,6 +137,7 @@ x
 ```
 
 > -type
+
 > This option specifies the type of file you want to find.
 
 *[Source](https://www.example.com)*
