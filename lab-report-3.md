@@ -82,14 +82,14 @@ The ```find``` command
 
 *[Source](https://www.example.com)*
 
-1. This command finds all files that are greater than 10MB, which can be useful when...
+1. This command finds all files that are greater than 10MB. There are no files that are greater than 10MB in the technical directory, as seen in the output below. This option can be useful in many scenarios, such as searching for large files as a way to declutter and/or save storage space.
 
 ```
-$ find /home/docsearch/technical/biomed -size +10M
+$ find /home/docsearch/technical -size +10M
 
 ```
 
-2. This command finds all files that are smaller than 100MB, which can be useful when...
+2. This command finds all files that are smaller than 100MB, which can be useful when you want to narrow down the results to only small files and when you know you are not looking for large files.
  
 ```
 $ find /home/docsearch/technical/911report -size -100M
@@ -119,7 +119,7 @@ $ find /home/docsearch/technical/911report -size -100M
 
 *[Source](https://www.example.com)*
 
-1. This command finds all files that ..., which can be useful when...
+1. This command finds all files that match ```*CHAPTER*```, which means the name includes the letters 'CHAPTER', case insensitive. As seen below, the file paths listed below contain the lowercase letters 'chapter' but are still listed in the results. This can be useful when you cannot remember the exact name of the file you are looking for, and/or if you are unsure about the capitalization of the name.
  
 ```
 $ find /home/docsearch/technical/911report -iname *CHAPTER*
@@ -141,7 +141,7 @@ $ find /home/docsearch/technical/911report -iname *CHAPTER*
 /home/docsearch/technical/911report/chapter-3.txt
 ```
 
-2. This command finds all files that ..., which can be useful when...
+2. This command finds all files in /home/docsearch/technical/911report that matches ```*chAPTer-1```, which in this case include 5 .txt files. Again, this option can be useful for the same reasons mentioned above in #1.
  
 ```
 $ find /home/docsearch/technical/911report -iname *chAPTer-13
@@ -158,7 +158,7 @@ $ find /home/docsearch/technical/911report -iname *chAPTer-13
 
 *[Source](https://www.example.com)*
 
-1. This command will only find files that are only 1 directory deep, ... This is useful because...
+1. This command will only find files that are only 1 directory deep, which in the case below are only the technical, biomed, and 911report directories. This is useful because with hundreds or even thousands of files in a user directory and beyond that, you may often get overwhelming results way beyond what you are looking for. So this option is useful to limit the depth of searches.
  
 ```
 $ find /home/docsearch/technical -maxdepth 1
@@ -167,7 +167,7 @@ $ find /home/docsearch/technical -maxdepth 1
 /home/docsearch/technical/911report
 ```
 
-2. This command will only find files that are 2 directories deep, ... This can be useful when...
+2. This command will only find files that are 2 directories deep. In the example below, I added the option ```-name *1471-2180-2*``` to further narrow down and limit the search because without that filter the results would be too long. Again, this option can be useful for the same reason stated above in #1. In the case below, the results that are only 2 directories deep and match the pattern are some of the .txt files in the biomed directory.
  
 ```
 $ find /home/docsearch/technical -maxdepth 2 -name *1471-2180-2*
@@ -191,7 +191,7 @@ $ find /home/docsearch/technical -maxdepth 2 -name *1471-2180-2*
 
 *[Source](https://www.example.com)*
 
-1. ```-type f``` specifies that you want to look for regular files (all the file paths; the actual files and not the ones that are just directories). Regular files include common types of files, such as text files and script files. This can be useful when you just want to look for file paths and don't want to include all the directory names.
+1. ```-type f``` specifies that you want to look for regular files (all the file paths; the actual files and not the ones that are just directories). Regular files include common types of files, such as text files and script files. This can be useful when you just want to look for file paths and don't want to include all the directory names. In the command below I narrowed down the directory to find the files to only the 911report directory because the biomed directory has a very long list of files. However, if the command was ```$ find /home/docsearch/technical -type f``` instead, all the .txt files in 911report and biomed would be listed, and the technical, 911report, and biomed directories would not be listed. In the output below, all the files in 911report are .txt files so they are all listed.
  
 ```
 $ find /home/docsearch/technical/911report -type f
@@ -214,7 +214,7 @@ $ find /home/docsearch/technical/911report -type f
 /home/docsearch/technical/911report/chapter-3.txt
 ```
 
-2. ```-type d``` specifies that you want to look for directories only. This is useful when ...
+2. ```-type d``` specifies that you want to look for directories only. This is useful when you only want to look for directories and not every single file path. The ```ls``` command does not allow you to filter results by file type, so the results can be overwhelming if you only want a list of directories and not all the file paths. The output below shows the technical, biomed, and 911report directories, as expected.
  
 ```
 $ find /home/docsearch/technical -type d
