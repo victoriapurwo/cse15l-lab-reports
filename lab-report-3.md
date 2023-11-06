@@ -78,7 +78,7 @@ The ```find``` command
 
 > -name
 
-*cite*
+*[title](https://www.example.com)*
 
 1. 
 
@@ -96,12 +96,12 @@ x
 
 > -iname
 
-*cite*
+*[title](https://www.example.com)*
 
 1. 
  
 ```
-$
+$ find ~ -empty
 x
 ```
 
@@ -112,38 +112,38 @@ $
 x
 ```
 
-> -command3
+> -maxdepth
 
-*cite*
+*[title](https://www.example.com)*
 
 1. 
  
 ```
-$
+$ find ~ -maxdepth 1
 x
 ```
 
 2. 
  
 ```
-$
+$ find ~ -maxdepth 2
 x
 ```
 
-> -command4
+> -type
 
-*cite*
+*[title](https://www.example.com)*
 
 1. 
  
 ```
-$
+$ find ~ -type f
 x
 ```
 
 2. 
  
 ```
-$
+$ find ~ -type d
 x
 ```
