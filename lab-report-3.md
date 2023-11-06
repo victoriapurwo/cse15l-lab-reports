@@ -76,9 +76,9 @@ The change I made to fix the code made sure that it copies the elements from the
 
 The ```find``` command
 
-> -name
+> -size
 
-*[title](https://www.example.com)*
+*[Source](https://www.example.com)*
 
 1. 
 
@@ -96,7 +96,7 @@ x
 
 > -iname
 
-*[title](https://www.example.com)*
+*[Source](https://www.example.com)*
 
 1. 
  
@@ -114,7 +114,7 @@ x
 
 > -maxdepth
 
-*[title](https://www.example.com)*
+*[Source](https://www.example.com)*
 
 1. 
  
@@ -132,7 +132,7 @@ x
 
 > -type
 
-*[title](https://www.example.com)*
+*[Source](https://www.example.com)*
 
 1. 
  
