@@ -77,17 +77,18 @@ The change I made to fix the code made sure that it copies the elements from the
 The ```find``` command
 
 > -size
+> This option specifies the size of the file you want to find.
 
 *[Source](https://www.example.com)*
 
-1. 
+1. To find all files that are greater than 100MB:
 
 ```
 $
 x
 ```
 
-2. 
+2. To find all files that are smaller than 100MB:
  
 ```
 $
@@ -95,13 +96,14 @@ x
 ```
 
 > -iname
+> This option
 
 *[Source](https://www.example.com)*
 
 1. 
  
 ```
-$ find ~ -empty
+$ find ~ -iname
 x
 ```
 
@@ -131,6 +133,7 @@ x
 ```
 
 > -type
+> This option specifies the type of file you want to find.
 
 *[Source](https://www.example.com)*
 
