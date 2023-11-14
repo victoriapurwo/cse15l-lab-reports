@@ -77,10 +77,7 @@ The change I made to fix the code made sure that it copies the elements from the
 The ```find``` command
 
 
-```-size```
-
-
-> This option specifies the size of the file you want to find. You can filter your results to smaller than or greater than a specific size. You can use several different suffixes: 'b' for 512-byte blocks, 'c' for bytes, 'w' for two-byte words, 'k' for kibibytes, 'M' for mebibites, 'G' for gibibytes.
+```-size```: This option specifies the size of the file you want to find. You can filter your results to smaller than or greater than a specific size. You can use several different suffixes: 'b' for 512-byte blocks, 'c' for bytes, 'w' for two-byte words, 'k' for kibibytes, 'M' for mebibites, 'G' for gibibytes.
 
 *[Source](https://man7.org/linux/man-pages/man1/find.1.html)*
 
@@ -116,10 +113,7 @@ $ find /home/docsearch/technical/911report -size -100M
 ```
 
 
-```-iname```
-
-
-> This option is like -name, but the match is case insensitive. For example, the pattern `Fo*` matches the file names `Foo`, `foo`, `FO0`, `FOO`, `fOO`, etc.
+```-iname```: This option is like -name, but the match is case insensitive. For example, the pattern `Fo*` matches the file names `Foo`, `foo`, `FO0`, `FOO`, `fOO`, etc.
 
 *[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
@@ -157,10 +151,7 @@ $ find /home/docsearch/technical/911report -iname *chAPTer-13
 ```
 
 
-```-maxdepth```
-
-
-> This option limits the depth of searches by the number of directories you want to go into after the starting point.
+```-maxdepth```: This option limits the depth of searches by the number of directories you want to go into after the starting point.
 
 *[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
@@ -192,10 +183,7 @@ $ find /home/docsearch/technical -maxdepth 2 -name *1471-2180-2*
 ```
 
 
-```-type```
-
-
-> This option specifies the type of file you want to find.
+```-type```: This option specifies the type of file you want to find.
 
 *[Source](https://www.redhat.com/sysadmin/linux-find-command)*
 
