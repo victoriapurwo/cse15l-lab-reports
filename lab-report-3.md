@@ -90,7 +90,7 @@ $ find /home/docsearch/technical -size +10M
 ```
 
 - This command finds all files that are smaller than 100MB, which can be useful when you want to narrow down the results to only small files and when you know you are not looking for large files.
- 
+
 ```
 $ find /home/docsearch/technical/911report -size -100M
 /home/docsearch/technical/911report
