@@ -27,14 +27,21 @@ Keys pressed:
 ```ssh cs15lfa23mg@ieng6.ucsd.edu```
 ```<enter>```
 
-I am already set up to SSH without a password using keys, so typing the keys above immediately logged me into my account and remotely connected me to ieng-202, as shown in the image above.
+I am already set up to SSH without a password using keys, so I was immediately logged into my account and remotely connected to ieng-202 without having to type my password, as shown in the image above.
 
 ---
 
 ## Step 5
 ### Clone your fork of the repository from your Github account using the ```SSH``` URL
 
+I copied the ```SSH``` URL from here:
+![Step5.2](step5-2.png)
+
 ![Step4](step5.png)
 
 Keys pressed:
+```git clone ```
+```<command> V```
+
+Since I copied the ```SSH``` URL from GitHub on my browser, I simply pasted the ```SSH``` URL using ```<command> V``` after typing ```git clone ```.
 
