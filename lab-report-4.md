@@ -26,3 +26,15 @@ For the lab report this week, reproduce the task below. For each numbered step s
 Keys pressed:
 ```ssh cs15lfa23mg@ieng6.ucsd.edu```
 ```<enter>```
+
+I am already set up to SSH without a password using keys, so typing the keys above immediately logged me into my account and remotely connected me to ieng-202, as shown in the image above.
+
+---
+
+## Step 5
+### Clone your fork of the repository from your Github account using the ```SSH``` URL
+
+![Step4](step5.png)
+
+Keys pressed:
+
