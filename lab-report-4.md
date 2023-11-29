@@ -40,10 +40,9 @@ I copied the ```SSH``` URL from here:
 ![Step4](step5.png)
 
 Keys pressed:
-```git clone ```
-```<command>V```
+```git clone``` ```<space>``` ```<command>V```
 
-Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```<command>V``` after typing ```git clone ```. Then it successfully cloned my fork of the repository from my GitHub account, as evident in the output/messages shown.
+Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```<command>V``` after typing ```git clone``` ```<space>```. Then it successfully cloned my fork of the repository from my GitHub account, as evident in the output/messages shown.
 
 ---
 
@@ -99,7 +98,7 @@ Keys pressed:
 ```:wq```
 ```<enter>```
 
-To edit the code file to fix the failing test using the command line, I opened ListExamples.java in Vim by typing ```vim ListExamples.java``` ```<enter>```.
+To edit the code file to fix the failing test using the command line, I opened ```ListExamples.java``` in Vim by typing ```vim ListExamples.java``` ```<enter>```.
 When the file opened in Vim, the position of my cursor was initially on the first line and first column, so I typed ```43j``` ```11l```.
 ```j``` is equivalent to the down arrow, ```l``` is equivalent to the right arrow.
 ```43j``` means down 43 times and ```11l``` means right 11 times. I did 43 and 11 times respectively because the exact location of the error I wanted to fix was on line 44, column 12, so I needed to go down 43 times and go to the right 11 times to land on that exact spot.
