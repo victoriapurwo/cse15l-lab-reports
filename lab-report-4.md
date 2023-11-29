@@ -40,9 +40,9 @@ I copied the ```SSH``` URL from here (using ```Command-C``` but it was not done 
 ![Step4](step5.png)
 
 Keys pressed:
-```git clone``` ```<space>``` ```Command-V```
+```git clone``` ```<space>``` ```Command-V``` ```<enter>```
 
-Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```Command-V``` after typing ```git clone``` ```<space>```. Then it successfully cloned my fork of the repository from my GitHub account, as evident in the output/messages shown.
+Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```Command-V``` after typing ```git clone``` ```<space>```. Then after pressing ```<enter>``` it successfully cloned my fork of the repository from my GitHub account, as evident in the output/messages shown.
 
 ---
 
