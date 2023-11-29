@@ -43,5 +43,14 @@ Keys pressed:
 ```git clone ```
 ```<command> V```
 
-Since I copied the ```SSH``` URL from GitHub on my browser, I simply pasted the ```SSH``` URL using ```<command> V``` after typing ```git clone ```.
+Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```<command> V``` after typing ```git clone ```.
+
+---
+
+## Step 6
+### Run the tests, demonstrating that they fail
+
+![Step6](step6.png)
+
+Keys pressed:
 
