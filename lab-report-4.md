@@ -19,3 +19,10 @@ For the lab report this week, reproduce the task below. For each numbered step s
 ---
 
 ## Step 4
+### Log into ieng6
+
+![Step4](step4.png)
+
+Keys pressed:
+```ssh cs15lfa23mg@ieng6.ucsd.edu```
+```<enter>```
