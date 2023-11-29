@@ -41,16 +41,16 @@ I copied the ```SSH``` URL from here:
 
 Keys pressed:
 ```git clone ```
-```<command> V```
+```<command>V```
 
-Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```<command> V``` after typing ```git clone ```.
+Since I've already copied the ```SSH``` clone URL from GitHub on my browser, I simply pasted the ```SSH``` clone URL using ```<command>V``` after typing ```git clone ```.
 
 ---
 
 ## Step 6
 ### Run the tests, demonstrating that they fail
 
-First I had to ```cd``` into the correct working directory first before being able to run the tests
+First I had to ```cd``` into the correct working directory before being able to compile and run the tests
 ![Step6-2](step6-2.png)
 
 ![Step6](step6.png)
