@@ -23,13 +23,15 @@ You should actually set up and run the scenario from your screenshots. It should
 
 > **CSE 15L Student:**
 
-...
+Hi! I ...
 
 ---
 
 > **CSE 15L TA:**
 
-...
+Did you/Have you ...?
+Try...
+Here is a link to ... [HelpfulLink](https://www.example.com)
 
 ---
 
@@ -61,8 +63,12 @@ Here is all the information needed about the setup:
 
 ## Part 2 – Reflection
 
-*In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!*
+*In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on.*
 
 ---
 
-My lab experience in the second half of this quarter has been ...
+My lab experience in the second half of this quarter has been insightful and fun; I've learned quite a lot!
+
+The most interesting one was getting to understand how grading scripts and autograders are built and how they work, and even getting to try to build one on my own. Every time I submit a programming assignment in other CSE classes, I've always wondered how the autograders on Gradescope worked. Getting my grading script/autograder to run properly was definitely a struggle at first, but after some help from my lab friends and tutors, we finally got it working at the end.
+
+Another thing I learned that I believe is going to be the most useful and practical is how to do everything from the command line: committing and pushing to GitHub, editing files on Vim and all the cool tricks and shortcuts that come with it.
