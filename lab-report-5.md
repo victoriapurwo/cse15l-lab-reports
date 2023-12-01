@@ -30,7 +30,9 @@ Hi! I ...
 > **CSE 15L TA:**
 
 Did you/Have you ...?
+
 Try...
+
 Here is a link to ... [HelpfulLink](https://www.example.com)
 
 ---
