@@ -43,6 +43,8 @@ Here is a link to ... [HelpfulLink](https://www.example.com)
 
 ---
 
+Step 4
+
 Here is all the information needed about the setup:
 
 > **The file & directory structure needed**
