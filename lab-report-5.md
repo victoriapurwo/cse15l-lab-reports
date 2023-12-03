@@ -78,8 +78,8 @@ Here is all the information needed about the setup:
 > **The files & directory structure needed**
 
 ```
-lab-report-9
-  - lib
+- lab-report-9
+  - lib/
     - hamcrest-core-1.3.jar
     - junit-4.13.2.jar
   - ArrayExamples.java
