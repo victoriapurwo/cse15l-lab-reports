@@ -43,7 +43,7 @@ I also wrote tests for cases where there are two of the same highest elements in
 Here is an instance of when the test failed. The input array was ```{ 11, 10, 3, 8, 5 }```, and the output (symptom) was ```5``` instead of the expected ```6```:
 ![Image](symptom.png)
 
-After running the tests and looking at the failing output from JUnit, I realized that all the actual outputs were smaller than the expected output. This leads me to believe that either the variable ```sum``` is always calculated to be smaller than it should be, or that the variable ```count``` is calculated to be larger than it should be. I have tried making changes to my code, but it still has not worked properly. In fact, some changes that I tried has broken the code even more, so I think that this current code I have has been the closest I can get it to working properly. Can I please get some guidance on how to fix my code? Thanks in advance!
+After running the tests and looking at the failing output from JUnit, I realized that all the actual outputs are smaller than the expected output. This leads me to believe that either the variable ```sum``` is always calculated to be smaller than it should be, or that the variable ```count``` is calculated to be larger than it should be. I have tried making changes to my code, but it still has not worked properly. In fact, some changes that I tried has broken the code even more, so I think that this current code I have has been the closest I can get it to working properly. Can I please get some guidance on how to fix my code? Thanks in advance!
 
 ---
 
