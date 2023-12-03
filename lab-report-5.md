@@ -109,7 +109,7 @@ Since I already have the commands I need to compile the java files and run the J
 
 > **A description of what to edit to fix the bug**
 
-I fixed the code by placing ```count += 1;``` inside the if statement that checks if the current number is the highest numbers. This ensures that ```count``` is only incremented if the current number is not the highest number, thus excluding the highest number(s) into ```count``` which will calculate the average properly.
+I fixed the code by placing ```count += 1;``` inside the if statement that checks if the current number is the highest numbers. This ensures that ```count``` is only incremented if the current number is not the highest number, thus excluding the highest number(s) from ```count``` which will calculate the average properly.
 
 Here is the fixed code:
 ![Image](lab9-7.png)
