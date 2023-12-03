@@ -21,13 +21,23 @@ You should actually set up and run the scenario from your screenshots. It should
 
 ---
 
-> **CSE 15L Student:**
+> **CSE Student's Original Post:**
 
-Hi! I ...
+Hi! I'm working on PA9, more specifically the ```averageWithoutHighest()``` method but I keep encountering weird issues.
+The write-up states that the ```averageWithoutHighest()``` method should
+However, when I ran tests that gave the method the input array ```{}```, the actual value returned was ```X``` instead of the expected ```X```.
+
+Here is my code right now, the tests I ran, and the output:
+![Image](lab9-1.png)
+
+The error message makes me think that the bug is in ...
+I have tried making some changes to my code, such as ..., but it still has not worked properly.
+
+Can I please get some guidance on how to fix my code? Thanks in advance! :)
 
 ---
 
-> **CSE 15L TA:**
+> **TA's Response:**
 
 Did you/Have you ...?
 
@@ -37,9 +47,11 @@ Here is a link to ... [HelpfulLink](https://www.example.com)
 
 ---
 
-> **CSE 15L Student:**
+> **Student:**
 
 ...
+
+![Image](lab9-2.png)
 
 ---
 
