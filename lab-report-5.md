@@ -24,7 +24,7 @@ You should actually set up and run the scenario from your screenshots. It should
 > **CSE Student's Original Post:**
 
 Hi! I'm working on PA9, more specifically the ```averageWithoutHighest()``` method but I keep encountering weird issues.
-The write-up states that the ```averageWithoutHighest()``` method should return an integer of the average of the numbers in the array but leave out the highest number in the calculation. And if there are two of the same highest numbers, then it should leave both of them out when calculating (there will not be more than two highest elements). If there are no elements in the array, or if there is only 1 element, then it should return 0.
+The write-up states that the ```averageWithoutHighest()``` method should return an integer of the average of the numbers in an unsorted array but leave out the highest number in the calculation. And if there are two of the same highest numbers, then it should leave both of them out when calculating (there will not be more than two highest elements). If there are no elements in the array, or if there is only 1 element, then it should return 0.
 
 The actual output matches my expected output only when there are fewer than two elements in the input array, in which the output is simply ```0```. However, when the input array is of a larger size, the tests fail. For example, ```{ 11, 10, 3, 8, 5 }``` is a failure-inducing input that produces the output ```5``` instead of the expected ```6```.
 
